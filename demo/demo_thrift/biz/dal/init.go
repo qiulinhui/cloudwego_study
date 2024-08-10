@@ -1,8 +1,8 @@
 package dal
 
 import (
-	"github.com/qiulinhui/cloudwego_study/biz/dal/mysql"
-	"github.com/qiulinhui/cloudwego_study/biz/dal/redis"
+	"cloudwego_study/demo/demo_thrift/biz/dal/mysql"
+	"cloudwego_study/demo/demo_thrift/biz/dal/redis"
 )
 
 func Init() {

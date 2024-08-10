@@ -3,7 +3,7 @@ package redis
 import (
 	"context"
 
-	"github.com/qiulinhui/cloudwego_study/conf"
+	"cloudwego_study/demo/demo_thrift/conf"
 	"github.com/redis/go-redis/v9"
 )
 

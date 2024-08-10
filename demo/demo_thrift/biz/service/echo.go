@@ -1,9 +1,8 @@
 package service
 
 import (
+	api "cloudwego_study/demo/demo_thrift/kitex_gen/api"
 	"context"
-
-	api "github.com/qiulinhui/cloudwego_study/demo/demo_thrift/kitex_gen/api"
 )
 
 type EchoService struct {

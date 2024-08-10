@@ -1,9 +1,9 @@
 package main
 
 import (
+	"cloudwego_study/demo/demo_thrift/biz/service"
+	api "cloudwego_study/demo/demo_thrift/kitex_gen/api"
 	"context"
-	"github.com/qiulinhui/cloudwego_study/biz/service"
-	api "github.com/qiulinhui/cloudwego_study/demo/demo_thrift/kitex_gen/api"
 )
 
 // EchoImpl implements the last service interface defined in the IDL.

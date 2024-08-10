@@ -3,10 +3,10 @@
 package echo
 
 import (
+	api "cloudwego_study/demo/demo_thrift/kitex_gen/api"
 	"context"
 	client "github.com/cloudwego/kitex/client"
 	callopt "github.com/cloudwego/kitex/client/callopt"
-	api "github.com/qiulinhui/cloudwego_study/demo/demo_thrift/kitex_gen/api"
 )
 
 // Client is designed to provide IDL-compatible methods with call-option parameter for kitex framework.

@@ -2,8 +2,8 @@
 package echo
 
 import (
+	api "cloudwego_study/demo/demo_thrift/kitex_gen/api"
 	server "github.com/cloudwego/kitex/server"
-	api "github.com/qiulinhui/cloudwego_study/demo/demo_thrift/kitex_gen/api"
 )
 
 // NewServer creates a server.Server with the given handler and options.

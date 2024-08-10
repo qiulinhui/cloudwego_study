@@ -4,13 +4,13 @@ import (
 	"net"
 	"time"
 
+	"cloudwego_study/demo/demo_thrift/conf"
+	"cloudwego_study/demo/demo_thrift/kitex_gen/api/echo"
 	"github.com/cloudwego/kitex/pkg/klog"
 	"github.com/cloudwego/kitex/pkg/rpcinfo"
 	"github.com/cloudwego/kitex/pkg/transmeta"
 	"github.com/cloudwego/kitex/server"
 	kitexlogrus "github.com/kitex-contrib/obs-opentelemetry/logging/logrus"
-	"github.com/qiulinhui/cloudwego_study/conf"
-	"github.com/qiulinhui/cloudwego_study/demo/demo_thrift/kitex_gen/api/echo"
 	"go.uber.org/zap/zapcore"
 	"gopkg.in/natefinch/lumberjack.v2"
 )

@@ -3,11 +3,11 @@
 package echo
 
 import (
+	api "cloudwego_study/demo/demo_thrift/kitex_gen/api"
 	"context"
 	"errors"
 	client "github.com/cloudwego/kitex/client"
 	kitex "github.com/cloudwego/kitex/pkg/serviceinfo"
-	api "github.com/qiulinhui/cloudwego_study/demo/demo_thrift/kitex_gen/api"
 )
 
 var errInvalidMessageType = errors.New("invalid message type for service method handler")

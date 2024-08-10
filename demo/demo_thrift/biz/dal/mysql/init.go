@@ -1,7 +1,7 @@
 package mysql
 
 import (
-	"github.com/qiulinhui/cloudwego_study/conf"
+	"cloudwego_study/demo/demo_thrift/conf"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
