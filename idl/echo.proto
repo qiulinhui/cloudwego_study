@@ -15,5 +15,5 @@ message Response {
 }
 
 service EchoService {
-    rpc Echo(Request) returns (Response) {}
+    rpc Echo (Request) returns (Response) {}
 }
